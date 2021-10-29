@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <title>Gator-Hub Login</title>
+  </head>
+  
+  <style>
+        @font-face{
+            font-family: minimal;
+            src: url("minimalising.otf");
+                }
+        @font-face{
+            font-family: tapes;
+            src: url("tapes.ttf");
+                }
+        @font-face{
+            font-family: affection;
+            src: url("Affectionately Yours-TTF.ttf");
+                }
+        body{
+            background-color:black;
+            background-image: url("pape2.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            font-family: arial;
+            min-height: 100%;
+            min-width: 1024px;
+            width: 100%;
+            height: auto;
+            top: 0;
+            left: 0;
+            color: white;
+            width: 100%;
+            padding: 0;
+            margin: 0;
+                
+            }
+            
+         .navi{
+            overflow: hidden;
+            position: fixed;
+            background-color: rgba(10, 10, 10, 0.9);
+            top: 0;
+            width: 100%;
+            list-style: none;
+                
+            }
+        .navi img{
+            width: 45px;
+            display: inline;
+            margin-top: 5px;
+            float: left;
+            }
+        .navi li {
+            float: left;
+            list-style: none;
+            }
+        .navi a{
+            float: left;
+            display: inline-block;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 12px;
+            text-decoration: none;
+            font-size: 20px;
+            }
+        .naviRight{
+            float: right;
+            }
+        .navi a:hover{
+            color: rgba(100, 150, 200, 0.9);
+            filter: blur(1px);
+            }
+        #loginTitle{
+            font-size: 150px;
+        }
+        #helloBox{
+            width: 20%;
+            float: right;
+            background-color: rgba(10, 10, 10, 0.9);
+            border: 2px white;
+            border-radius: 20px 0px 0px 20px;
+            padding: 10px;
+            font-size: 20px;
+        }
+        
+        .inputControl{ 
+            width: 40%;
+        
+        }
+        
+        input[type=text], select {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            }
+        
+        input[type=submit] {
+            width: 20%;
+            background-color: #3B8BD8;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+  </style>
+  
+        <nav class = "navi"><!--hey! listen!!!-->
+        <img src = "acorn.png" id = "logo"/>
+            <ul>
+                <li><a href = "index.html">home</a></li>
+                <li><a href = "planner.html">planner</a></li>
+                <li><a href = "community.html">community</a></li>
+                <li><a href = "events.html">events</a></li>
+                <div class = "naviRight">
+                <li><a href = "aboutus.html">about</a></li></div>
+            <ul>
+        </nav>
+    
+  <body>
+    <main>
+        <h1 id = "loginTitle">Hello, fellow Gator</h1>
+        <p id = "helloBox">Disclaimer:<br>This site was created by people who put your privacy first. No detailed information is collected by our developers and every posted is anonymous by your user name. Log in using your screen name and password to visit our student led community</p>
+        
+        
+    <div class = inputControl>
+        <form action="/action_page.php">
+        <label for="fname"></label>
+        <input type="text" id="fname" name="firstname" placeholder="user name">
+        <br>
+        <label for="lname"></label>
+        <input type="text" id="lname" name="lastname" placeholder="password">
+        <input type="submit" value="Submit">
+        <input type="submit" value="Lost Info">
+    <div>
+        </main>
+    <footer></footer>
+  </body>
+</html>

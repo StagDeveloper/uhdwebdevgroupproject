@@ -1,0 +1,185 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset = "utf-8"/>
+        <title>Gatorboard.app</title>
+        <style>
+            @font-face{
+                font-family: minimal;
+                src: url("minimalising.otf");
+                }
+            @font-face{
+                font-family: tapes;
+                src: url("tapes.ttf");
+                }
+            @font-face{
+                font-family: affection;
+                src: url("Affectionately Yours-TTF.ttf");
+                }
+            body{
+                background-color:white;
+                /*background-image: url("pape2.jpg");*/
+                background-size: cover;
+                background-repeat: no-repeat;
+                font-family: arial;
+                min-height: 100%;
+                min-width: 1024px;
+                width: 100%;
+                height: auto;
+                top: 0;
+                left: 0;
+                color: black;
+                width: 100%;
+                padding: 0;
+                margin: 0;
+                
+            }
+            
+            .navi{
+                overflow: hidden;
+                position: fixed;
+                background-color: rgba(10, 10, 10, 0.9);
+                top: 0;
+                width: 100%;
+                list-style: none;
+                
+            }
+            .navi img{
+                width: 45px;
+                display: inline;
+                margin-top: 5px;
+                float: left;
+            }
+            .navi li {
+                float: left;
+                list-style: none;
+                }
+            .navi a{
+                float: left;
+                display: inline-block;
+                color: #f2f2f2;
+                text-align: center;
+                padding: 12px;
+                text-decoration: none;
+                font-size: 20px;
+            }
+            .naviRight{
+                float: right;
+                }
+            .navi a:hover{
+                color: rgba(100, 150, 200, 0.9);
+                filter: blur(1px);
+            }
+            .headctl{
+                padding-top: 30px;
+                font-size: 30px;
+                font-family: minimal;
+            }
+            .popularPosts h1{
+                color: white;
+                font-family: tapes;
+                font-size: 50px;  
+            
+            }
+            .popularPosts{
+                float: left;
+                display: block;  
+                background-color: black;
+                width: 40%;
+                border: 2px white;
+                border-radius: 0px 20px 20px 0px;
+            }
+            .popularPosts li{
+                list-style: none;
+            
+            }
+            .popularPosts a{
+                text-decoration: none;
+                color: white;
+                font-size: 20px;
+                padding: 2px;
+                
+            }
+            .popularPosts a:hover{
+                color: red;
+            }
+            .forumsTitles {
+                float: right;
+                display: block;  
+                background-color: black;
+                width: 30%;
+                border: 2px white;
+                border-radius: 22px 0px 0px 22px;
+            
+            }
+            .forumsTitles li{
+                
+            }
+            .forumsTitles a{
+                color: white;
+                text-decoration: none;
+                font-size: 18px;
+            }
+            .forumsTitles a:hover{
+                color: red;
+            }
+            .currentevents{
+                display: inline;
+            }
+        </style>
+    </head>
+    
+    
+     <nav class = "navi"><!--hey! listen!!!-->
+        <img src = "acorn.png" id = "logo"/>
+            <ul>
+                <li><a href = "index.html">home</a></li>
+                <li><a href = "planner.html">planner</a></li>
+                <li><a href = "community.html">community</a></li>
+                <li><a href = "events.html">events</a></li>
+                <div class = "naviRight">
+                <li><a href = "aboutus.html">about</a></li></div>
+            <ul>
+        </nav>
+        
+        
+
+    <body>
+        <div class = "headctl">
+            <h1>Community Hub</h1>
+        </div>
+        <div class = "popularPosts">
+            <h1>What's hot</h1>
+            <ul>
+                <li><a href = "#"> Professor Singh keeps hating on my shoes even though they are legit Crocs</li></a>
+                <li><a href = "#"> FOR SALE!! CS 4300 - Web Development Textbook - MINT CONDITION!</li></a>
+                <li><a href = "#"> Looking for tutoring in Math 3302 - Failing every thing</li></a>
+                <li><a href = "#"> UHD Dungeons and Dragons Night! BYOB, Pizza provided</li></a>
+                <li><a href = "#"> Covid Shots for puppies!! Is your puppy safe from the virus?</li></a>
+                <li><a href = "#"> New to UHD and looking for study buddies in Business Managment</li></a>
+                <li><a href = "#"> HACKTOBERFEST 2021 - Bringing Open Source Software to UHD</li></a>
+                <li><a href = "#"> BUY MY CAMERAS GODDAMNIT I HAVE 100s</li></a>
+        </div>
+        
+        <div class = "forumsTitles">
+            <ul>
+                <li><a href = "#"> Computer Science Hub </a></li>
+                <li><a href = "#"> Mathematics </a></li>
+                <li><a href = "#"> Physics and Chemistry </a></li>
+                <li><a href = "#"> Law Enforcement </a></li>
+                <li><a href = "#"> Business College life </a></li>
+                <li><a href = "#"> Forensic Investigations </a></li>
+                <li><a href = "#"> Statistics and Natural Sciences </a></li>
+                <li><a href = "#"> Behavioral Sciences </a></li>
+                <li><a href = "#"> Labortory </a></li>
+                <li><a href = "#"> Career Advice </a></li>
+                <li><a href = "#"> Student Organizations </a></li>
+                <li><a href = "#"> Off Topic </a></li>
+                <li><a href = "#"> Student Guidence </a></li>
+                <li><a href = "#"> UHD Food Court FAQ </a></li>
+            </ul>
+        </div>
+        <div class = "currentevents"> 
+            
+        </div>
+    </body>
